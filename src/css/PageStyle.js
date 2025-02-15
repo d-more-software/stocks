@@ -76,6 +76,7 @@ export const Wrapper = styled.section`
 		padding: 1rem;
 		background-color: var(--clr-jasper-5);
 		box-shadow: 21px 17px 15px -3px rgba(0, 0, 0, 0.2);
+		/* z-index: -1; */
 	}
 	.search {
 		border-radius: 10px;

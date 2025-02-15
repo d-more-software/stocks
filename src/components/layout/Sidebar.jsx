@@ -84,6 +84,7 @@ const Wrapper = styled.section`
 		height: 100%;
 		transform: translateX(-120%);
 		transition: all 0.2s ease-in-out;
+
 		.logo-container {
 			margin-top: 5rem;
 			width: 40%;
@@ -96,6 +97,7 @@ const Wrapper = styled.section`
 	.mobile-container-show {
 		transform: translateX(0);
 	}
+
 	.btn {
 		cursor: pointer;
 		position: absolute;
@@ -343,10 +345,10 @@ export default function Sidebar() {
 					<article className="footer-container">
 						<div className="align-text-left">
 							<a
-								href="https://john-doe-portfolio.netlify.app"
+								href="https://david-more-portfolio.netlify.app/"
 								target="_blank"
 							>
-								made by John
+								made by David More
 							</a>
 						</div>
 						<div className="align-text-center">2024</div>

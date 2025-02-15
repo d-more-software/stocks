@@ -80,8 +80,6 @@ export default function Indexes() {
 		}
 	});
 
-	// console.log(tickersList);
-
 	return (
 		<Wrapper>
 			<article className="list-header">

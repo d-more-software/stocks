@@ -23,10 +23,6 @@ const TickerGraphs = ({ slice }) => {
 		}
 	}, [selectedTicker]);
 
-	console.log(selectedTicker);
-
-	console.log(selectedTickerData);
-
 	return (
 		<div>
 			{selectedTickerData.status === "ok" ? (

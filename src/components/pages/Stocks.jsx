@@ -75,8 +75,6 @@ export default function Stocks() {
 		replaceCursor,
 	} = useModal();
 
-	// console.log(tickersList);
-
 	const handleTickerSelection = (evt, stock) => {
 		dispatch(updateSelectedTicker(stock));
 		openModal(evt);

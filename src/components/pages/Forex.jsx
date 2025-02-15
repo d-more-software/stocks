@@ -11,11 +11,6 @@ export default function Forex() {
 	const dispatch = useDispatch();
 	const { isLimit } = useSelector((store) => store.app);
 
-	/** need to check re-rending issue */
-	// if (isLimit) {
-	// 	notify();
-	// }
-
 	useEffect(() => {
 		if (isLimit) {
 			notify();

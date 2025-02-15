@@ -19,6 +19,7 @@ const Wrapper = styled.aside`
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 1rem;
+
 	.title {
 		text-align: center;
 		margin: 2rem auto;
@@ -30,6 +31,7 @@ const Wrapper = styled.aside`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		/* z-index: -1; */
 		.label {
 			margin-left: 1rem;
 		}

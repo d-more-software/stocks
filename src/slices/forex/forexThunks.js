@@ -15,7 +15,6 @@ export const fetchConverterParityRateThunk = async (_, thunkAPI) => {
 	const endpoint = `exchange_rate`;
 	const symbol = `symbol=${curr1}/${curr2}`;
 	const targetUrl = baseUrl + endpoint + `?` + symbol + `&apikey=` + apikey;
-	// console.log(targetUrl);
 
 	try {
 		const response = await axios.get(targetUrl);
